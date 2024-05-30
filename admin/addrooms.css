@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+ }
+ .manage-rooms-div, .add_rooms {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ .room-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+ }
+ .room-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+ }
+ .room-image img {
+    max-width: 100%;
+    border-radius: 5px;
+ }
+ .room-details div {
+    margin-bottom: 10px;
+ }
+ .room-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+ }
+ .room-actions a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+ }
+ .update-link {
+    background-color: #28a745;
+ }
+ .delete-link {
+    background-color: #dc3545;
+ }
+ .update-link:hover, .delete-link:hover {
+    opacity: 0.8;
+ }
+ .empty {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+ }
+ .edit-form-container, .add_rooms {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ .edit-form-container form, .add_rooms form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ }
+ .edit-form-container form .box, .add_rooms form .box {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+ }
+ .edit-form-container form .btn, .add_rooms form .btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .edit-form-container form .btn:hover, .add_rooms form .btn:hover {
+    opacity: 0.8;
+ }
+ .edit-form-container form input[type="button"], .add_rooms form input[type="button"] {
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+ }
+ #addrooms-buttons-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
